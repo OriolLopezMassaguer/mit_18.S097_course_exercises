@@ -3,7 +3,7 @@
 {-# LANGUAGE FlexibleInstances #-}
 {-# LANGUAGE FlexibleContexts #-}
 
-main =putStrLn "hello"
+main = putStrLn "hello"
 
 despace = concat . words::String -> [Char]
 
